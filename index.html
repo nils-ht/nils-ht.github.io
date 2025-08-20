@@ -20,14 +20,25 @@
     }
 
     header {
-      background: #2563eb;
+      background: #16a34a; /* Green */
       color: white;
-      padding: 2rem;
+      padding: 3rem 1rem;
       text-align: center;
+    }
+
+    header img.profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     }
 
     header h1 {
       font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     nav {
@@ -49,14 +60,14 @@
 
     section h2 {
       margin-bottom: 1rem;
-      color: #2563eb;
+      color: #16a34a; /* Green */
     }
 
     footer {
       text-align: center;
       padding: 1.5rem;
-      background: #e5e7eb;
-      color: #555;
+      background: #dcfce7; /* Light green */
+      color: #166534;      /* Darker green for text */
     }
 
     /* Responsive */
@@ -73,6 +84,8 @@
 </head>
 <body>
   <header>
+    <!-- 👇 Replace "me.jpg" with your actual file name -->
+    <img src="NHT.jpg" alt=" " class="profile-pic">
     <h1>Nils Hermansson Truedsson</h1>
     <nav>
       <a href="#about">About</a>
@@ -118,13 +131,12 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>
-      Want to connect? Reach me at
-      <a href="mailto:your@email.com">your@email.com</a>.
+     <strong> Email: </strong> nils.hermansson-truedsson at ed.ac.uk
     </p>
   </section>
 
   <footer>
-    <p>© 2025 Your Name · Powered by GitHub Pages</p>
+    <p>© 2025 NHT · Powered by GitHub Pages</p>
   </footer>
 </body>
 </html>
